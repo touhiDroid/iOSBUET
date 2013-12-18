@@ -28,7 +28,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.title = @"Hello App" ;
+    self.title = NSLocalizedString(@"a", nil);
     
     MyArray = [[NSMutableArray alloc]init];
     [MyArray addObject:@"Bangladesh"] ;

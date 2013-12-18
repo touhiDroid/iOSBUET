@@ -18,6 +18,7 @@
 		BD991277183E23DB00572001 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD991256183E23DB00572001 /* UIKit.framework */; };
 		BD991292183E29EA00572001 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD991290183E29EA00572001 /* MasterViewController.m */; };
 		BD991293183E29EA00572001 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD991291183E29EA00572001 /* MasterViewController.xib */; };
+		BDEB4D3B1845D0180099F8BC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDEB4D3D1845D0180099F8BC /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,9 @@
 		BD99128F183E29E900572001 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		BD991290183E29EA00572001 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		BD991291183E29EA00572001 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		BDEB4D381845CFB50099F8BC /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDEB4D3C1845D0180099F8BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BDEB4D3E1845D01F0099F8BC /* es */ = {isa = PBXFileReference; lastKnownFileType = file; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,7 @@
 				BD99125B183E23DB00572001 /* InfoPlist.strings */,
 				BD99125E183E23DB00572001 /* main.m */,
 				BD991260183E23DB00572001 /* GetStarted-Prefix.pch */,
+				BDEB4D3D1845D0180099F8BC /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -184,6 +189,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = BD991246183E23DA00572001;
 			productRefGroup = BD991250183E23DB00572001 /* Products */;
@@ -202,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD991293183E29EA00572001 /* MasterViewController.xib in Resources */,
+				BDEB4D3B1845D0180099F8BC /* Localizable.strings in Resources */,
 				BD99125D183E23DB00572001 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,8 +255,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				BD99125C183E23DB00572001 /* en */,
+				BDEB4D381845CFB50099F8BC /* es */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BDEB4D3D1845D0180099F8BC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDEB4D3C1845D0180099F8BC /* en */,
+				BDEB4D3E1845D01F0099F8BC /* es */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -418,6 +435,7 @@
 				BD991286183E23DB00572001 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD991287183E23DB00572001 /* Build configuration list for PBXNativeTarget "GetStartedTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +444,7 @@
 				BD991289183E23DB00572001 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  GetStarted
+
+  Created by Ashiq uz Zoha on 11/27/13.
+  Copyright (c) 2013 Ayon. All rights reserved.
+*/
+
+"TITLE" = "Hola iOS" ;
+"another" = "Hola World" ;
+"a" = "test spanish" ;
